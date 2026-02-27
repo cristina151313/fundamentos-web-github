@@ -9,7 +9,7 @@ function restar(a, b) {
 }
 
 function multiplicar(a, b) {
-  console.log('Multiplicando:', a, '*', b);
+  console.log('Multiplicando:', a, '*', b + 'PRUEBA');
   return a * b;
 }
 
