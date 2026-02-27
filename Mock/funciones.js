@@ -8,4 +8,9 @@ function restar(a, b) {
   return a - b;
 }
 
-module.exports = { obtenerNombreCompleto, restar };
+function multiplicar(a, b) {
+  console.log('Multiplicando:', a, '*', b);
+  return a * b;
+}
+
+module.exports = { obtenerNombreCompleto, restar, multiplicar };
