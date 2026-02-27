@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-testing-jest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proyecto base para aprender Jest en JavaScript",
+  "main": "funciones.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "jest",
+    "testing",
+    "javascript"
+  ],
+  "author": "CristinaVicuna_Unir",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "baseline-browser-mapping": "^2.10.0",
+    "jest": "^29.7.0"
+  }
+}
